@@ -1,5 +1,9 @@
 # Chill out app
 
+![chillOutApp][image1]
+
+[image1]: https://raw.githubusercontent.com/japoveda10/chilloutapp/master/images/homepage.png
+
 ## What is it?
 
 Web application for college stress reliver

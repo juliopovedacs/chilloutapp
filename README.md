@@ -4,6 +4,10 @@
 
 [image1]: https://raw.githubusercontent.com/japoveda10/chilloutapp/master/images/homepage.png
 
+![chillOutAppMobile][image2]
+
+[image2]: https://raw.githubusercontent.com/japoveda10/chilloutapp/master/images/mobile_homepage.png
+
 ## What is it?
 
 Web application for college stress reliver

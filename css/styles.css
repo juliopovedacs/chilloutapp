@@ -1,0 +1,54 @@
+.jumbotron {
+  color: #fff;
+  background-color: #1B9AF7;
+  padding: 100px 25px;
+}
+
+.panel {
+  border-color: #1b9AF7;
+}
+
+#myCarousel {
+  margin-bottom: 50px;
+}
+
+#stressingBox {
+  background-color: #1b9AF7;
+  color: #fff;
+}
+
+#gameBox {
+  background-color: #1b9AF7;
+  color: #fff;
+}
+
+#musicBox {
+  background-color: #1b9AF7;
+  color: #fff;
+}
+
+#aboutUs {
+  color: #fff;
+  background-color: #1B9AF7;
+  padding: 50px;
+}
+
+#outdoors {
+  background-color: #1B9AF7;
+  color: #fff;
+}
+
+#outdoorsListItem1 {
+  color: #000;
+}
+
+#outdoorsListItem2 {
+  color: #000;
+}
+
+footer  {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #1B9AF7;
+  background-color: #fff
+}

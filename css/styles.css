@@ -5,7 +5,7 @@
 }
 
 .panel {
-  border-color: #1b9AF7;
+  border-color: #1B9AF7;
 }
 
 #jumbotron {
@@ -26,7 +26,7 @@
 
 #indoorsTitle {
   padding: 20px;
-  color: #1b9AF7;
+  color: #1B9AF7;
 }
 
 #outdoorsTitle {
@@ -35,7 +35,7 @@
 }
 
 #stressingBox {
-  background-color: #1b9AF7;
+  background-color: #1B9AF7;
   color: #fff;
 }
 
@@ -45,7 +45,7 @@
 }
 
 #gameBox {
-  background-color: #1b9AF7;
+  background-color: #1B9AF7;
   color: #fff;
 }
 
@@ -55,7 +55,7 @@
 }
 
 #musicBox {
-  background-color: #1b9AF7;
+  background-color: #1B9AF7;
   color: #fff;
 }
 
@@ -85,6 +85,7 @@
 
 #demoTitle {
   padding: 20px;
+  color: #1B9AF7;
 }
 
 #apps {

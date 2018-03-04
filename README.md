@@ -1,4 +1,4 @@
-# Chill out app
+# Chill Out App
 
 ![chillOutApp][image1]
 

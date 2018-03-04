@@ -25,3 +25,6 @@ https://github.com/WestHC/StressRelief
 
 # Demo
 https://japoveda10.github.io/chilloutapp/
+
+# More info
+https://devpost.com/software/chill-out-app

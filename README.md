@@ -11,3 +11,9 @@ Web application for college stress reliver
 * Miguel Sanz (github.com/MigueloSanz)
 * Jeromy Villator (github.com/Pseudoskeptic)
 * Hunter West (github.com/WestHC)
+
+# Android app repository
+https://github.com/WestHC/StressRelief
+
+# Demo
+https://japoveda10.github.io/chilloutapp/

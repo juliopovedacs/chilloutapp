@@ -8,8 +8,30 @@
   border-color: #1b9AF7;
 }
 
+#jumbotron {
+  padding-bottom: 60px;
+}
+
 #myCarousel {
   margin-bottom: 50px;
+}
+
+#aboutUsImage {
+  width: 100%;
+}
+
+#whoAreWeParagraph {
+  padding-bottom: 20px;
+}
+
+#indoorsTitle {
+  padding: 20px;
+  color: #1b9AF7;
+}
+
+#outdoorsTitle {
+  padding: 20px;
+  color: #fff;
 }
 
 #stressingBox {
@@ -17,14 +39,29 @@
   color: #fff;
 }
 
+#stretchingImage {
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
 #gameBox {
   background-color: #1b9AF7;
   color: #fff;
 }
 
+#gameImage {
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
 #musicBox {
   background-color: #1b9AF7;
   color: #fff;
+}
+
+#musicImage {
+  border-radius: 25px;
+  margin-bottom: 20px;
 }
 
 #aboutUs {
@@ -46,9 +83,14 @@
   color: #000;
 }
 
+#app {
+  background-color: #1B9AF7;
+  color: #fff;
+}
+
 footer  {
   font-size: 20px;
   margin-bottom: 20px;
   color: #1B9AF7;
-  background-color: #fff
+  background-color: #fff;
 }

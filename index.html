@@ -15,7 +15,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
-<body>
+<body id="home">
 
   <!-- NAVBAR -->
   <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
@@ -30,23 +30,23 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#sobreNosotros">ABOUT US</a></li>
-          <li><a href="#porqueJugar">INDOORS</a></li>
-          <li><a href="#queNecesito">OUTDOORS</a></li>
-          <li><a href="#queNecesito">CONTACT US</a></li>
+          <li><a href="#aboutUs">ABOUT US</a></li>
+          <li><a href="#indoors">INDOORS</a></li>
+          <li><a href="#outdoors">OUTDOORS</a></li>
+          <li><a href="#d3Visualization">PLAY</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- JUMBOTRON -->
-  <div class="jumbotron text-center">
+  <div id="jumbotron" class="jumbotron text-center">
     <h1>Chill Out App</h1>
     <p>Do you have a busy college life? Stop by and enjoy this app!</p>
   </div>
 
   <!-- CAROUSEL -->
-  <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: 800px">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: auto">
 
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -59,14 +59,26 @@
     <div class="carousel-inner">
       <div class="item active">
         <img src="images/indoor_stretching.jpg" alt="Indoor stretching">
+        <div class="carousel-caption">
+          <h3>Take some time off...</h3>
+          <p>You deserve it</p>
+        </div>
       </div>
 
       <div class="item">
         <img src="images/park.jpeg" alt="Park">
+        <div class="carousel-caption">
+          <h3>Enjoy the nature</h3>
+          <p>New places to go, new adventures</p>
+        </div>
       </div>
 
       <div class="item">
         <img src="images/music.jpeg" alt="Music">
+        <div class="carousel-caption">
+          <h3>Play a game</h3>
+          <p>Let´s go</p>
+        </div>
       </div>
     </div>
 
@@ -86,10 +98,12 @@
   <div id="aboutUs" class="container-fluid bg-grey">
     <div class="row">
       <div class="col-sm-4">
-        <span><img src="images/music.jpeg" alt="Woman hearing music" height="150" width="150"/></span>
+        <span><img id="aboutUsImage" src="images/music.jpeg" alt="Woman hearing music" height="300" width="350" style="border-radius: 25px"/></span>
       </div>
       <div class="col-sm-8">
         <h2 class="titulo">Who are we?</h2>
+        <p id="whoAreWeParagraph">We are Oklahackers, a group of students wanting to make the world a better place.</p>
+        <h2 class="titulo">Why it matters?</h2>
         <p>College life can be stressing... don´t let it overwhelm you! We are here to help :)</p>
       </div>
     </div>
@@ -98,7 +112,7 @@
   <!-- What to do indoors? -->
   <div id="indoors" class="container-fluid">
     <div class="text-center">
-      <h2 class="titulo">What to do indoors?</h2>
+      <h2 id="indoorsTitle">What to do indoors?</h2>
     </div>
     <div class="row">
       <div class="col-sm-4">
@@ -107,7 +121,13 @@
             <h1>Stretching</h1>
           </div>
           <div class="panel-body">
-            <img src="images/indoor_stretching.jpg" alt="indoor stretching" height="200" width="200" />
+            <img id="stretchingImage" src="images/indoor_stretching.jpg" alt="indoor stretching" height="200" width="300" />
+            <p>Here are some stretching exercises you should try:</p>
+            <ul>
+              <li><a href="https://www.builtlean.com/2011/05/25/basic-stretching-exercises-routine/">Basic Stretch Routine</a></li>
+              <li><a href="http://elitemensguide.com/stretching-an-overview/">10 Stretching exercises</a></li>
+              <li><a href="https://www.healthline.com/health/fitness-exercise/daily-stretching-routine#1">5-minute routine</a></li>
+            </ul>
           </div>
         </div>
       </div>
@@ -117,7 +137,13 @@
             <h1>Game!</h1>
           </div>
           <div class="panel-body">
-            <img src="images/park.jpeg" alt="Games" height="200" width="150" />
+            <img id="gameImage" src="images/park.jpeg" alt="Games" height="200" width="300" />
+            <p>Look at these cool games to play:</p>
+            <ul>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -127,7 +153,13 @@
             <h1>Music time!</h1>
           </div>
           <div class="panel-body">
-            <img src="images/music.jpeg" alt="Headphones" height="200" width="150" />
+            <img id="musicImage" src="images/music.jpeg" alt="Headphones" height="200" width="300" />
+            <p>Here are some sountracks we recommend you to listen:</p>
+            <ul>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -137,27 +169,28 @@
   <!-- What to do outdoors -->
   <div id="outdoors" class="container-fluid">
     <div class="text-center">
-      <h2>What can I do outdoors?</h2>
+      <h2 id="outdoorsTitle">What can I do outdoors?</h2>
     </div>
     <div class="row text-center">
       <p class="parrafo">There are lots of things you could do:</p>
+      <iframe id="movies" src="https://www.google.com/maps/d/embed?mid=1_7iFqGrD5BvRadFh0SvEeN3FYQ_uDWhb" width="100%" height="450" style="border:0" allowfullscreen></iframe>
     </div>
-    <div class="container">
-      <ul class="nav nav-tabs">
-        <li class="active"><a id="outdoorsListItem1" data-toggle="tab" href="#home">Watch a movie</a></li>
-        <li><a id="outdoorsListItem2" data-toggle="tab" href="#menu1">Sports time!</a></li>
-      </ul>
+  </div>
 
-      <div class="tab-content">
-        <div id="home" class="tab-pane fade in active">
-          <p class="parrafo text-center parrafoMapa">Want more info? Go to <a href="" target="_blank"></a></p>
-          <iframe id="movies" src="https://www.google.com/maps/d/embed?mid=1Ckj-Nfob1Drl0oUmd99AHfioG0UZlhIH" width="100%" height="450" style="border:0" allowfullscreen></iframe>
-        </div>
-        <div id="menu1" class="tab-pane fade">
-          <p class="parrafo text-center parrafoMapa">Want more info? Go to <a href="" target="_blank"></a></p>
-          <iframe id="sports" src="https://www.google.com/maps/d/embed?mid=1X4Xy038B54yIgPde6EP_JcHQPmk4_yOL" width="100%" height="450" style="border:0" allowfullscreen></iframe>
-        </div>
-      </div>
+  <!-- D3 VISUALIZATION -->
+  <div id="d3Visualization" class="container-fluid bg-grey">
+    <div class="text-center">
+      <h2>Play with this, its pretty cool</h2>
+    </div>
+  </div>
+
+  <!-- APP -->
+  <div id="app" class="container-fluid bg-grey">
+    <div class="text-center">
+      <h2>Try our amazing app!</h2>
+    </div>
+    <div class="row">
+
     </div>
   </div>
 

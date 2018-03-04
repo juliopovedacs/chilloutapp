@@ -9,22 +9,23 @@
 [image2]: https://raw.githubusercontent.com/japoveda10/chilloutapp/master/images/mobile_homepage.png
 
 ## What is it?
-
 Web application for college stress reliver
 
+# Web application
+https://japoveda10.github.io/chilloutapp/
+
 # Team members
-* Rahul Chidurala (github.com/RahulChidurala)
-* John Nguyen (github.com/waejay)
-* Julio Poveda (github.com/japoveda10)
-* Miguel Sanz (github.com/MigueloSanz)
-* Jeromy Villator (github.com/Pseudoskeptic)
-* Hunter West (github.com/WestHC)
+Name                | Role | GitHub user |
+:---------------------:|:--------:|:-------:|
+Rahul Chidurala |Android developer|https://github.com/RahulChidurala|
+John Nguyen  |iOS developer|https://github.com/waejay|
+Julio Poveda |Mobile app designer and web developer|https://github.com/japoveda10|
+Miguel Sanz  |Logo designer|https://github.com/MigueloSanz|
+Jeromy Villator |Android developer|https://github.com/Pseudoskeptic|
+Hunter West  |Android developer|https://github.com/WestHC| 
 
 # Android app repository
 https://github.com/WestHC/StressRelief
 
-# Demo
-https://japoveda10.github.io/chilloutapp/
-
 # More info
-https://devpost.com/software/chill-out-app
+Here is more information about our project: https://devpost.com/software/chill-out-app

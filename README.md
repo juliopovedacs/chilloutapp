@@ -12,7 +12,7 @@
 Web application for college stress reliver
 
 # Web application
-https://japoveda10.github.io/chilloutapp/
+This is our web application: https://japoveda10.github.io/chilloutapp/
 
 # Team members
 Name                | Role | GitHub user |
@@ -25,7 +25,7 @@ Jeromy Villator |Android developer|https://github.com/Pseudoskeptic|
 Hunter West  |Android developer|https://github.com/WestHC| 
 
 # Android app repository
-https://github.com/WestHC/StressRelief
+This is the Android app repository: https://github.com/WestHC/StressRelief
 
 # More info
 Here is more information about our project: https://devpost.com/software/chill-out-app

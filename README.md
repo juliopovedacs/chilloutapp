@@ -12,7 +12,7 @@
 Web application for college stress reliver
 
 # Web application
-This is our web application: https://japoveda10.github.io/chilloutapp/
+This is our web application: https://juliopovedacs.github.io/chilloutapp/
 
 # Team members
 Name                | Role | GitHub user |
